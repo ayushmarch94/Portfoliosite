@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    height: 60px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Links{
+    margin-right: 20px;
+}
+
+#navbar a{
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+#name{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
