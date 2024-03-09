@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1002px){
+    #home{
+        height: 250vh;
+    }
+}
+
+@media only screen and (max-width: 578px){
+    #Links{
+        display: none;
+    }
+
+
+    .nameIntro{
+        text-align: center;
+    }
+
+
+    #homeFrame1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar{
+        display: flex;
+        justify-content: center;
+    }
+
+    #hamburger{
+        display: block;
+        position: absolute;
+        left: 10px;
+    }
+
+    #about{
+        height: 260vh;
+    }
+
+    #about p{
+        text-align: center;
+        margin: 100px;
+    }
+    
+}
+
+@media only screen and (max-width: 462px){
+    #homeFrame1{
+        height: 400px;
+    }
+}

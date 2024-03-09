@@ -10,11 +10,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position:absolute;
+    position:fixed;
+    top: 0;
 }
 
 #Links{
     margin-right: 20px;
+}
+
+#Links a:hover{
+    color: rgb(123, 0, 255);
 }
 
 #navbar a{
@@ -22,8 +27,12 @@
     margin: 10px;
     cursor: pointer;
     font-size: 20px;
+    text-decoration: none;
 }
 
+#hamburger{
+    display: none;
+}
 
 #name{
     color: white;
@@ -38,17 +47,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #homeFrame1{
     color: white;
-    height: 50vh;
-    width: 50vw;
-    margin: 100px;
+    height: 300px;
+    width: 400px;
+    margin: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    margin-top: 100px;
 }
 
 #hello{
@@ -56,7 +67,7 @@
 }
 
 .nameIntro{
-    font-size: 50px;
+    font-size: 45px;
 }
 
 #cv{
@@ -74,19 +85,101 @@
 
 #cv:hover{
     border: 2px solid white;
-    border-style:groove;
 }
 
 #homeFrame2{
     color: white;
     height: 50vh;
-    width: 50vw;
+    width: 400px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#homeFrame2 img{
+    border-radius: 10px;
+}
+
+
+#about{
+    height: 260vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+#about p{
     margin: 100px;
+    font-size: 20px;
+}
+
+#skills{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(10, 10, 10);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#skills p{
+    color: white;
+    margin: 50px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+#projects{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    height: 250px;
+    width: 300px;
+    border: 1px solid white;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+
+#contact{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(10, 10, 10);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#homeFrame2 img{
+#box{
+    height: 250px;
+    width: 300px;
     border-radius: 10px;
+    background-color: gray;
+}
+
+#closeLinks{   
+    display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 400px;
+    color: white;
+    background-color: black;
 }
