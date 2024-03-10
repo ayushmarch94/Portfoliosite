@@ -27,12 +27,6 @@
         justify-content: center;
     }
 
-    #hamburger{
-        display: block;
-        position: absolute;
-        left: 10px;
-    }
-
     #about{
         height: 260vh;
     }

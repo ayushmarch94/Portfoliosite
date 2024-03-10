@@ -1,185 +1,63 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
 }
 
-#navbar{
-    height: 63px;
-    width: 100vw;
-    background-color: black;
+body{
+    background-color: #080808;
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image:  url('./images/ayush.png');
+    background-size: cover;
+    background-position: center ;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-    position:fixed;
-    top: 0;
+    flex-wrap: wrap;
 }
 
-#Links{
-    margin-right: 20px;
+.logo{
+    width: 140px;
 }
 
-#Links a:hover{
-    color: rgb(123, 0, 255);
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
 }
 
-#navbar a{
-    color: white;
-    margin: 10px;
-    cursor: pointer;
-    font-size: 20px;
+nav ul li a{
+    color: #fff;
     text-decoration: none;
+    font-size: 18px;
+    position: relative;
 }
 
-#hamburger{
-    display: none;
-}
-
-#name{
-    color: white;
-    font-size: 25px;
-    margin: 20px;
-}
-
-#home{
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(10, 10, 10);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#homeFrame1{
-    color: white;
-    height: 300px;
-    width: 400px;
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    margin-top: 100px;
-}
-
-#hello{
-    font-size: 30px;
-}
-
-.nameIntro{
-    font-size: 45px;
-}
-
-#cv{
-    margin: 30px;
-    height: 50px;
-    width: 150px;
-    background-color: rgb(123, 0, 255);
-    border: 1px solid white;
-    border-radius: 7px;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
-    box-shadow: inset 0 0 10px rgb(0, 0, 0);
-}
-
-#cv:hover{
-    border: 2px solid white;
-}
-
-#homeFrame2{
-    color: white;
-    height: 50vh;
-    width: 400px;
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#homeFrame2 img{
-    border-radius: 10px;
-}
-
-
-#about{
-    height: 260vh;
-    width: 100vw;
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-}
-
-#about p{
-    margin: 100px;
-    font-size: 20px;
-}
-
-#skills{
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(10, 10, 10);
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#skills p{
-    color: white;
-    margin: 50px;
-    margin-top: 100px;
-    font-size: 20px;
-}
-
-#projects{
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.card{
-    height: 250px;
-    width: 300px;
-    border: 1px solid white;
-    margin: 30px;
-    border-radius: 10px;
-    background-color: gray;
-}
-
-
-#contact{
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(10, 10, 10);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#box{
-    height: 250px;
-    width: 300px;
-    border-radius: 10px;
-    background-color: gray;
-}
-
-#closeLinks{   
-    display: flex;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #ff004f;
     position: absolute;
-    height: 100vh;
-    width: 100vw;
-    margin-top: 400px;
-    color: white;
-    background-color: black;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
 }

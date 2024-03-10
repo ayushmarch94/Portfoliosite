@@ -1,5 +1,2 @@
-1. make hamburger
-2. make card responsive
-3. check for frontend jobs
-4.adjust viewport height of about for responsive both laptop and mobile
-5. change pic of boy
+1. change image
+2. change font style of logo and add full name in logo
