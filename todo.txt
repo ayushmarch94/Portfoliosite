@@ -2,5 +2,7 @@
 2. change font style of logo and add full name in logo
 3. change image of about seaction
 4. change image of project seaction
+5. add icons
 
-video time on 15:52 time
+video time on _ time
+
