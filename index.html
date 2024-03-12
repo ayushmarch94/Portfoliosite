@@ -6,25 +6,27 @@
     <title>Portfolio Site</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./Res.css" />
-    <link href="./images/icon.png" rel="icon"/>
+    <link href="./images/icon.png" rel="icon" />
   </head>
   <body>
-
     <div id="header">
       <div class="container">
         <nav>
-          <img src="./images/logo.png"  alt="logo" class="logo">
+          <img src="./images/logo.png" alt="logo" class="logo" />
           <ul>
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#about">Skills</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
         <div class="header-text">
           <p>Web Developer</p>
-          <h1>Hi, I'm  <span>Ayush Kumar</span> <br> from New Delhi</h1>
+          <h1>
+            Hi, I'm <span>Ayush Kumar</span> <br />
+            from New Delhi
+          </h1>
         </div>
       </div>
     </div>
@@ -35,46 +37,114 @@
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="./images/icon.png" width="300">
+            <img src="./images/icon.png" width="300" />
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, nam fuga iure harum at, quis hic doloribus rerum et maxime, assumenda ab odio itaque error nemo explicabo. Fugiat neque delectus obcaecati eius, eaque rerum reprehenderit explicabo veritatis est eveniet odit ipsum nostrum maxime adipisci officiis, eum totam nesciunt vitae reiciendis repudiandae suscipit ab necessitatibus! Nesciunt praesentium corrupti, nisi porro quia dolorum velit vel, est neque voluptatum ex ut facere, architecto culpa corporis nobis dolore sunt quas laudantium alias! Doloremque harum optio adipisci quisquam voluptas, distinctio odio nostrum dolor maiores ea quo consequuntur magnam architecto, cumque illum est officiis at ad.</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae,
+              nam fuga iure harum at, quis hic doloribus rerum et maxime,
+              assumenda ab odio itaque error nemo explicabo. Fugiat neque
+              delectus obcaecati eius, eaque rerum reprehenderit explicabo
+              veritatis est eveniet odit ipsum nostrum maxime adipisci officiis,
+              eum totam nesciunt vitae reiciendis repudiandae suscipit ab
+              necessitatibus! Nesciunt praesentium corrupti, nisi porro quia
+              dolorum velit vel, est neque voluptatum ex ut facere, architecto
+              culpa corporis nobis dolore sunt quas laudantium alias! Doloremque
+              harum optio adipisci quisquam voluptas, distinctio odio nostrum
+              dolor maiores ea quo consequuntur magnam architecto, cumque illum
+              est officiis at ad.
+            </p>
 
             <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
               <p class="tab-links" onclick="opentab('Education')">Education</p>
             </div>
             <div class="tab-contents active-tab" id="Skills">
               <ul>
-                <li><span>HTML</span><br>Hyper Text Markup Language</li>
-                <li><span>CSS</span><br>Cascading Style Sheets</li>
-                <li><span>Javascript</span><br>Programming language to create dynamic content for website</li>
-                <li><span>Wordpress</span><br>Content management system</li>
+                <li><span>HTML</span><br />Hyper Text Markup Language</li>
+                <li><span>CSS</span><br />Cascading Style Sheets</li>
+                <li>
+                  <span>Javascript</span><br />Programming language to create
+                  dynamic content for website
+                </li>
+                <li><span>Wordpress</span><br />Content management system</li>
               </ul>
             </div>
             <div class="tab-contents" id="Education">
               <ul>
-                <li><span>BCA</span><br>Shikshapeeth College of Management and Technology</li>
-                <li><span>12</span><br>Kendriya Vidyalaya Ambarnath Maharashtra</li>
-                <li><span>10</span><br>Kendriya Vidyalaya Ambarnath Maharashtra</li>
+                <li>
+                  <span>BCA</span><br />Shikshapeeth College of Management and
+                  Technology<br />2024
+                </li>
+                <li>
+                  <span>12th</span><br />Kendriya Vidyalaya Ambarnath
+                  Maharashtra<br />2020
+                </li>
+                <li>
+                  <span>10th</span><br />Kendriya Vidyalaya Ambarnath
+                  Maharashtra<br />2018
+                </li>
               </ul>
             </div>
+            <!-- add experience div -->
           </div>
         </div>
       </div>
     </div>
+
+    <!-------------------- portfolio -------------->
+    <div id="portfolio">
+      <div id="project-head">
+        <h1>Projects</h1>
+      </div>
+      <div id="projects">
+        <div class="project-list">
+          <h1>Weather Report site</h1>
+          <img src="./images/icon.png" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus consectetur cumque totam quod nesciunt cum neque quia id
+            sunt commodi?
+          </p>
+          <a href="">View</a>
+        </div>
+        <div class="project-list">
+          <h1>Weather Report site</h1>
+          <img src="./images/icon.png" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus consectetur cumque totam quod nesciunt cum neque quia id
+            sunt commodi?
+          </p>
+          <a href="">View</a>
+        </div>
+        <div class="project-list">
+          <h1>Weather Report site</h1>
+          <img src="./images/icon.png" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus consectetur cumque totam quod nesciunt cum neque quia id
+            sunt commodi?
+          </p>
+          <a href="">View</a>
+        </div>
+      </div>
+    </div>
+
     <script>
-      var tablinks=document.getElementsByClassName("tab-links");
-      var tabcontents=document.getElementsByClassName("tab-contents");
-      function opentab(tabname){
-        for(tablink of tablinks){
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
           tablink.classList.remove("active-link");
         }
-        for(tabcontent of tabcontents){
+        for (tabcontent of tabcontents) {
           tabcontent.classList.remove("active-tab");
         }
-        event.currentTarget.classList.add('active-link');
+        event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
       }
     </script>
